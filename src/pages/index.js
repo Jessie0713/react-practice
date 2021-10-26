@@ -14,9 +14,9 @@ const Index = ({ data }) => {
           <Link to="/project" className={styles.btn}>
             My Portfolio Projects
           </Link>
-          <button onClick={console.log("jessie", data)}>
+          {/* <button onClick={console.log("jessie", data)}>
             query
-          </button>
+          </button> */}
         </div>
         <Img fluid={data.file.childImageSharp.fluid} />
       </section>
